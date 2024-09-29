@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Message Generator</h1>
+    </header>
+    <section>
+        <div class="square"></div>
+        
+        <form>
+            <label for="msg">What type of message you want to generate</label>
+                <input type="text" name="msg" id="msg" list="msg-list">
+                <datalist id="msg-list">
+                    <option value="Jokes"></option>
+                    <option value="Inspiration"></option>
+                    <option value="Astrology"></option>
+                </datalist>
+                <hr>
+                <input type="button" class="generate-button" value="Generate">
+                <br>    
+                <textarea name="text-area" id="text-area"></textarea>
+                <button></button>
+        </form>     
+    </section>   
+    <script src="script.js"></script>
+</body>
+</html>

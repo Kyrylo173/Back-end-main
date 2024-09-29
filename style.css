@@ -1,0 +1,45 @@
+* {
+    font-family: "Fredoka", sans-serif;
+}
+
+header {
+    padding-top: 5px;
+    padding-left: 50px;
+    
+}
+
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+    padding-top: 200px;
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    font-size: large;
+}
+
+.square {
+    height: 500px;
+    width: 99%;
+    background-color: #555;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.generate-button {
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+}
+
+form hr {
+    width: 15%;
+}
+#text-area {
+    margin-top: 30px;
+    width: 400px;
+}
